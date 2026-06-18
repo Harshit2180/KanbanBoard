@@ -1,16 +1,103 @@
-# React + Vite
+# 🗂️ React Kanban Board
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A dynamic Kanban Board application built with React that allows users to create custom workflows, manage tasks, and organize work efficiently using drag-and-drop functionality.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### 📋 Column Management
 
-## React Compiler
+- Create multiple custom columns
+- Drag and reorder columns
+- Delete columns
+- Customize workflow stages based on project needs
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### ✅ Task Management
 
-## Expanding the ESLint configuration
+- Create tasks within any column
+- Move tasks between columns using drag and drop
+- Reorder tasks within the same column
+- Delete tasks
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🎨 User Experience
+
+- Clean UI
+- Smooth drag-and-drop interactions
+- Dynamic board structure
+- Easy-to-use interface
+
+## 🛠️ Built With
+
+- React
+- JavaScript
+- Tailwind CSS
+- Drag-and-Drop Library (dnd-kit)
+
+## 🚀 Getting Started
+
+### Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/Harshit2180/KanbanBoard.git
+```
+
+2. Navigate to the project directory
+
+```bash
+cd KanbanBoard
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Start the development server
+
+```bash
+npm run dev
+```
+
+The application will be available at:
+
+```text
+http://localhost:5173
+```
+
+## 🎯 Usage
+
+### Create a Column
+
+- Click the **Add Column** button.
+- Enter a column title.
+- The new column will be added to the board.
+
+### Reorder Columns
+
+- Drag a column and drop it in the desired position.
+
+### Delete a Column
+
+- Click the trash icon on the column.
+- The column will be removed from the board.
+
+### Create a Task
+
+- Select a column.
+- Click **Add Task**.
+- Enter task details and save.
+
+### Move Tasks
+
+- Drag and drop tasks between columns.
+- Reorder tasks within the same column.
+
+### Delete a Task
+
+- Click the trash icon on the task card.
+
+## 🤝 Contributing
+
+If you would like to contribute to this project, feel free to fork the repository, make your changes, and submit a pull request.
